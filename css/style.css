@@ -29,7 +29,6 @@ a{
 .title{
   color: #000;
   font-size: 4em;
-  padding-top: 40px;
   padding-bottom: 20px;
   text-align: center;
   font-family: 'Tahu!', sans-serif;
@@ -47,7 +46,7 @@ a{
 }
 
 .bloc{
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .institut-container{
@@ -128,6 +127,33 @@ a{
 .soin-label{
   font-weight: normal;
   font-weight: bold;
+}
+
+.giftcard-container{
+margin-bottom: 30px;
+}
+
+.giftcard-detail{
+  height: 250px;
+  color : #f1d7ce;
+  background-color : rgba(0,0,0,.7);
+  margin-top : 20px;
+}
+
+.giftcard-label{
+  padding-top: 50px;
+  font-size: 1.1em;
+}
+
+.giftcard-description{
+  text-align: center;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+}
+
+
+.giftcard-number{
+font-size: 4em;
 }
 
 .find-container{
