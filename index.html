@@ -16,33 +16,27 @@
   <title>Flowzen - Angers</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light w-100">
-    <!--<div class="d-flex flex-row">
-      <div class="nav-container-logo" ><img src="img/flowzen.jpg" width="90%"></div>
-      <div><img src="img/wave-home.png" height="80"></div>
-    </div>-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg py-4 navbar-light bg-light w-100">
+    <a class="navbar-brand" href="#">FLOWZEN</a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Accueil</a>
+        <li class="nav-item active">
+          <a class="nav-link menu-underline" href="#a-institut">Institut</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#services">Soins</a>
+          <a class="nav-link menu-underline" href="#a-soins">Soins</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#avis">Institut</a>
+          <a class="nav-link menu-underline" href="#a-giftcard">Carte Cadeau</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#avis">Carte cadeau</a>
+          <a class="nav-link menu-underline" href="#a-find">Nous trouver</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#parcours">Nous trouver</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link menu-underline" href="#a-contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -51,8 +45,7 @@
     <div>
       <!--  <img src="img/home.png" width="100%"> -->
     </div>
-    <div class="bloc-separate"></div>
-    <div class="institut-container">
+    <div class="institut-container bloc" id="a-institut">
       <div class="title"><span>L'institut</span>  </div>
       <div class="container">
         <div class="row institut-sentence">
@@ -70,7 +63,7 @@
       </div>
     </div>
     <img src="img/wave-up.png" width="100%">
-    <div class="bloc-color">
+    <div class="bloc-color bloc" id="a-soins">
       <div class="title"><span>Nos soins</span>  </div>
       <div class="container">
         <div class="soin-sentence">
@@ -212,12 +205,12 @@
       </div>
     </div>
     <img src="img/wave-down.png" width="100%">
-    <div>
+    <div class="bloc" id="a-giftcard">
       <div class="title"><span>Carte Cadeau</span>  </div>
       <br><br><br><br><br><br>
     </div>
     <img src="img/wave-up.png" width="100%">
-    <div class="bloc-color">
+    <div class="bloc-color bloc" id="a-find">
       <div class="title"><span>Nous trouver</span>  </div>
       <div class="container">
         <div class="row">
@@ -234,11 +227,14 @@
                   <div class="py-2"><b>33 boulevard Saint Michel</b></div>
                   <div class="py-2"><b>49000, Angers</b></div>
                   <div class="py-2"></div>
-                  <div class="py-2"><a href="https://www.waze.com/fr/live-map/directions/fr/pays-de-la-loire/angers/33-bd-saint-michel?navigate=yes&to=place.ChIJKbkiau54CEgRgO8YI8qW4M0"><span class="find-waze-link">Itinéraire</span></a></div>
+                  <div class="py-2"><a href="https://ul.waze.com/ul?place=ChIJKbkiau54CEgRgO8YI8qW4M0&ll=47.47371940%2C-0.54397810&navigate=yes&utm_medium=send_to_phone_QR"><span class="find-waze-link">Itinéraire</span></a></div>
                   <div class="py-4"></div>
-                  <div class="py-2">Du Lundi au Vendredi : <b>10h00 - 19h00</b></div>
-                  <div class="py-2">Samedi (semaines impaires) : <b>10h00 - 19h00</b></div>
+                  <div class="py-2">Du Lundi au Vendredi : </div>
+                  <div class="py-1"><b>10h00 - 19h00</b></div>
+                  <div class="py-2">Samedi (semaines impaires) : </div>
+                  <div class="py-1"><b>10h00 - 19h00</b></div>
                   <div class="py-2">Dimanche : <b>Fermé</b></div>
+                  <div class="py-1"></div>
                 </div>
               </div>
             </div>
@@ -248,7 +244,7 @@
     </div>
   </div>
   <img src="img/wave-down.png" width="100%">
-  <div>
+  <div class="bloc" id="a-contact">
     <div class="title"><span>Contact</span></div>
     <div class="container">
       <div class="contact-container">
