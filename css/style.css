@@ -252,6 +252,7 @@ font-size: 4em;
   z-index: 99;
   position : fixed;
   color : #f1d7ce;
+  backdrop-filter: blur(4px);
 }
 
 .navbar-nav .nav-link {
