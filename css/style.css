@@ -253,6 +253,7 @@ font-size: 4em;
   position : fixed;
   color : #f1d7ce;
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 .navbar-nav .nav-link {
