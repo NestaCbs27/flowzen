@@ -289,20 +289,22 @@
     <div class="title"><span>Contact</span></div>
     <div class="container">
       <div class="contact-container">
-        <form class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
           <div class="d-flex flex-column ">
-            <form action="https://api.web3forms.com/submit" method="POST">
               <input type="hidden" name="access_key" value="01e6d5af-5288-4a96-8529-46bcf309f896">
               <input type="hidden" name="subject" value="Nouveau message !">
               <input type="hidden" name="from_name" value="Flowzen49.fr">
               <input type="hidden" name="redirect" value="https://web3forms.com/success">
+              <div class="p-2">Nom / Prénom</div>
               <input type="text" name="Nom / Prénom"  class="contact-input" placeholder="Nom / Prénom" required>
+              <div class="p-2"> Adresse e-mail</div>
               <input type="email" name="email" class="contact-input" placeholder="Adresse e-mail" required>
+              <div class="p-2">Message</div>
               <textarea  class="contact-input" name="message" placeholder="Message" cols="30" rows="5" required></textarea>
-              <button type="submit" class="contact-btn">Envoyer</button>
+              <div class="p-2"></div>
+              <div class="w-100">
+                <button type="submit" class="contact-btn">Envoyer</button>
               </div>
-          
-          </form>
           </div>
         </form>
       </div>
