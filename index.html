@@ -302,13 +302,14 @@
               <div class="p-2"> <input type="submit" class="contact-btn" value="Envoyer"></div>
             </form>
             <form action="https://api.web3forms.com/submit" method="POST">
-
               <input type="hidden" name="access_key" value="01e6d5af-5288-4a96-8529-46bcf309f896">
-          
-              <input type="text" name="name" required>
-              <input type="email" name="email" required>
-              <textarea name="message" required></textarea>
+              <input type="hidden" name="subject" value="Nouveau message !">
+              <input type="hidden" name="from_name" value="Flowzen49.fr">
               <input type="hidden" name="redirect" value="https://web3forms.com/success">
+              <input type="text" name="First Name" required>
+              <input type="email" name="email" required>
+              <textarea name="message" cols="30" rows="10" required></textarea>
+          
               <button type="submit">Submit Form</button>
           
           </form>
