@@ -43,7 +43,7 @@
   </nav>
   <section class="bloc-content">
     <div>
-      <!--  <img src="img/home.png" width="100%"> -->
+        <!--<img id="img-home" src="img/soins.jpg">-->
     </div>
     <div class="institut-container bloc" id="a-institut">
       <div class="title"><span>L'institut</span>  </div>
@@ -291,13 +291,16 @@
       <div class="contact-container">
         <form class="contact-form">
           <div class="d-flex flex-column ">
-            <div class="p-2">Nom / Prénom</div>
-            <div class="p-2"> <input type="text" class="contact-input" placeholder="Nom / Prénom"></div>
-            <div class="p-2"> Adresse e-mail</div>
-            <div class="p-2"><input type="mail" class="contact-input" placeholder="Adresse e-mail"></div>
-            <div class="p-2">Message</div>
-            <div class="p-2"><textarea class="contact-input" placeholder="Message"></textarea></div>
-            <div class="p-2"> <input type="submit" class="contact-btn" value="Envoyer"></div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="01e6d5af-5288-4a96-8529-46bcf309f896">
+              <div class="p-2">Nom / Prénom</div>
+              <div class="p-2"> <input type="text" name="name" class="contact-input" placeholder="Nom / Prénom"></div>
+              <div class="p-2"> Adresse e-mail</div>
+              <div class="p-2"><input type="email" name="email" class="contact-input" placeholder="Adresse e-mail"></div>
+              <div class="p-2">Message</div>
+              <div class="p-2"><textarea class="contact-input" name="message" placeholder="Message"></textarea></div>
+              <div class="p-2"> <input type="submit" class="contact-btn" value="Envoyer"></div>
+            </form>
           </div>
         </form>
       </div>
@@ -358,6 +361,7 @@
 <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script defer src="./js/splide.min.js"></script>
 <script defer src="./js/splide-extension-auto-scroll.min.js"></script>
+<script defer src="https://web3forms.com/client/script.js" ></script>
 <script defer src="./js/script.js"></script>
 </body>
 </html>
