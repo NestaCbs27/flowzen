@@ -33,18 +33,18 @@ body{
 }
 
 .home{
-  height: 700px;
+  height: 800px;
   width: 100%;
   background-size: cover;
   background-position: center center;
-  background-image: url("../img/home.png");
+  background-image: url("../img/home5.jpg");
   text-align: center;
   position: relative;
 }
 
 .home-overlay{
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: rgba(127, 189, 143, 0.25);
   position: absolute;
   display: flex;
@@ -56,7 +56,7 @@ body{
   font-weight: lighter;
   width: 75%;
   border : 0px solid var(--white);
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(255,255,255,.3);
   padding: 20px;
   margin: 0 auto!important;
   position: absolute;
