@@ -39,35 +39,42 @@ body{
   background-position: center center;
   background-image: url("../img/home.png");
   text-align: center;
-  padding-top: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .home-bloc-description{
   color : var(--white);
-  font-size: 1.3em;
   font-weight: lighter;
   width: 75%;
-  margin: 0 auto;
-  border : 6px solid var(--white);
-  background-color: transparent;
+  border : 0px solid var(--white);
+  background-color: rgba(255,255,255,.2);
   padding: 20px;
+  margin: 0 auto!important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home-description{
+  font-size: 1.3em;
 }
 
 .home-description{
   color : var(--white);
-  font-size: 1.2em;
   font-weight: lighter;
 }
 
 .home-btn-cta-container{
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .home-btn-cta{
-  border : 1px solid var(--white);
+  border : 0px solid var(--white);
   color : var(--white);
   padding: 8px 20px;
-  background-color: transparent;
+  background-color: var(--main-color);
 }
 
 
@@ -326,7 +333,9 @@ font-size: 4em;
 
 .navbar {
  background-color: rgba(0,0,0,.7)!important;
+/*background-color: var(--black)!important;*/
   box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+ /* border-bottom: 10px solid var(--main-color);*/
   z-index: 99;
   position : fixed;
   color : var(--white);
