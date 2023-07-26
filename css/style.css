@@ -277,7 +277,7 @@ font-size: 4em;
 
 
 .navbar {
- background-color: rgba(0,0,0,.65)!important;
+ background-color: rgba(0,0,0,.7)!important;
   box-shadow: 0 3px 6px 0 rgba(0,0,0,.2);
   z-index: 99;
   position : fixed;
@@ -303,7 +303,7 @@ nav .navbar-nav li a:hover{
 
 .navbar-light .navbar-toggler {
   margin-left: 10px!important;
-  border : 1px solid var(--white)!important;
+  border : 0px solid var(--white)!important;
   border-radius: 0px!important;
 }
 
