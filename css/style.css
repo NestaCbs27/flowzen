@@ -29,7 +29,7 @@ html {
 
 body{
   font-family: 'Ubuntu', sans-serif;
-  background-color: rgba(0,0,0,.7)!important;
+  /*background-color: rgba(0,0,0,.7)!important;*/
 }
 
 .home{
@@ -37,7 +37,7 @@ body{
   width: 100%;
   background-size: cover;
   background-position: center center;
-  background-image: url("../img/home.png");
+  /*background-image: url("../img/home.png");*/
   text-align: center;
   padding-top: 200px;
 }
@@ -121,7 +121,7 @@ a{
 
 .institut-container{
   text-align: center;
-  background-image: url("../img/logo-tr3.png");
+  /*background-image: url("../img/logo-tr3.png");*/
   background-position: top 150px left 0px;
   background-repeat: no-repeat;
 }
