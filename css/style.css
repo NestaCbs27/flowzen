@@ -130,8 +130,8 @@ a{
 
 
 .home-btn-cta{
-  border : 1px solid var(--beige-fonce);
-  color : var(--beige-fonce);
+  border : 1px solid var(--beige-clair);
+  color : var(--beige-clair);
   padding: 8px 20px;
   background-color: transparent;
 }
@@ -199,31 +199,34 @@ a{
 /* ABOUT ME */
 /*****************************************************/
 
-
 .container-aboutme{
-  background-color : var(--green);
   padding: 50px;
-  margin: 25px;
+}
+
+.container-content-aboutme{
+  background-color : var(--green);
   border : 6px solid var(--white);
   background-image: url("../img/feuille.png");
   background-size: 25%;
+  padding-bottom: 40px;
   /*background-repeat: no-repeat;*/
 }
 
 
 .picture-container-aboutme{
   text-align: center;
-  padding: 40px;
 }
 
 .picture-aboutme{
   border : 6px solid var(--white);
+  margin-top: 40px;
 }
 
 .description-aboutme{
   text-align: center;
   color : var(--beige-clair);
   font-style: italic;
+  margin-top: 40px;
 }
 
 
@@ -395,7 +398,7 @@ a{
   color : var(--white);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-bottom: solid 1px var(--beige-fonce);
+  border-bottom: solid 1px var(--beige-clair);
 }
 
 .nav-item{
@@ -418,7 +421,7 @@ a{
 }
 
 .nav-link:hover {
-  color : var(--beige-fonce)!important;
+  color : var(--beige-clair)!important;
 }
 
 .navbar-light .navbar-toggler {
