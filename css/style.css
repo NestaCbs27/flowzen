@@ -38,6 +38,16 @@ a{
   height: 10px;
 }
 
+.separator-top{
+  width: 100%;
+  margin-top: 100px;
+}
+
+.separator-bottom{
+  width: 100%;
+  margin-bottom: 100px;
+}
+
 /*****************************************************/
 /* TITLES */
 /*****************************************************/
@@ -58,7 +68,7 @@ a{
 
 .title-section{
   color: var(--green);
-  font-size: 3.5em;
+  font-size: 4em;
   padding-top: 100px;
   margin-bottom: 15px;
   text-align: center;
@@ -72,6 +82,15 @@ a{
   padding-bottom: 5px;
   margin-bottom: 40px;
 }
+
+.title-section-white{
+  color: var(--white);
+}
+
+.title-section-underline-white{
+  border-bottom: 1px solid var(--white);
+}
+
 
 
 /*****************************************************/
@@ -199,12 +218,13 @@ a{
 
 .container-aboutme{
  /* padding: 50px; */
+ /*background-color: var(--green);*/
 }
 
 .container-content-aboutme{
-  background-color : var(--green);
-  border : 6px solid var(--white);
-  background-image: url("../img/feuille.png");
+ /* background-color : var(--green);*/
+  /*border : 6px solid var(--white);*/
+  /*background-image: url("../img/feuille.png");*/
   background-size: 25%;
   padding-left: 40px;
   padding-right: 40px;
@@ -218,13 +238,13 @@ a{
 }
 
 .picture-aboutme{
-  border : 6px solid var(--white);
+  /*border : 6px solid var(--white);*/
   margin-top: 40px;
 }
 
 .description-aboutme{
   text-align: center;
-  color : var(--white);
+  color : var(--green);
   font-style: italic;
   margin-top: 40px;
 }
@@ -358,11 +378,11 @@ a{
   text-align : center; 
   padding : 50px; 
   background-color: var(--green);
-  color : var(--beige-fonce);
+  color : var(--beige-clair);
 }
 
 .footer-img-social{
-  border : 1px solid var(--beige-fonce);
+  border : 1px solid var(--beige-clair);
   line-height: 48px;
   text-align: center;
   vertical-align: middle;
