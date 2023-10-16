@@ -118,7 +118,7 @@ a{
   font-weight: lighter;
   font-size: 5em;
   font-family: 'Tahu!', sans-serif;
-  padding-top: 20px;
+  padding-top: 70px;
   padding-bottom: 35px;
 }
 
@@ -130,8 +130,8 @@ a{
 
 
 .home-btn-cta{
-  border : 1px solid var(--beige-clair);
-  color : var(--beige-clair);
+  border : 1px solid var(--white);
+  color : var(--white);
   padding: 8px 20px;
   background-color: transparent;
 }
@@ -153,8 +153,6 @@ a{
 .container-prestation{
   color: var(--green);
   margin-top: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
   margin-bottom: 50px;
 }
 
@@ -200,7 +198,7 @@ a{
 /*****************************************************/
 
 .container-aboutme{
-  padding: 50px;
+ /* padding: 50px; */
 }
 
 .container-content-aboutme{
@@ -208,6 +206,8 @@ a{
   border : 6px solid var(--white);
   background-image: url("../img/feuille.png");
   background-size: 25%;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 40px;
   /*background-repeat: no-repeat;*/
 }
@@ -224,7 +224,7 @@ a{
 
 .description-aboutme{
   text-align: center;
-  color : var(--beige-clair);
+  color : var(--white);
   font-style: italic;
   margin-top: 40px;
 }
@@ -237,7 +237,7 @@ a{
 
 .soin{
   width: 100%;
-  padding: 25px;
+  padding-top: 50px;
   text-align: center;
   color: var(--green);
 }
@@ -276,14 +276,16 @@ a{
 
 .soin-title{
   font-family: 'Tahu!', sans-serif;
-  font-size: 3em;
+  font-size: 2.4em;
 }
 
 .soin-time{
+  margin-top: 10px;
   font-size: 0.8em;
 }
 
 .soin-price{
+  margin-top: 5px;
   font-size: 0.8em;
 }
 
@@ -398,7 +400,7 @@ a{
   color : var(--white);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-bottom: solid 1px var(--beige-clair);
+  border-bottom: solid 1px var(--white);
 }
 
 .nav-item{
