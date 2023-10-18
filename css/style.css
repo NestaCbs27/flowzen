@@ -50,6 +50,38 @@ a{
 .bg-green{
   background-color: var(--green);
 }
+
+#imgLogo 
+{
+   height:100px;/*give it a fixed size*/
+   margin:0 auto;
+   /* animation magic */
+   -webkit-transition: all 0.8s;
+   -moz-transition: all 0.8s;
+   -ms-transition: all 0.8s;
+   -o-transition: all 0.8s;
+   transition: all 0.8s;
+}
+
+#imgLogoTitle
+{
+    padding-top: 40px;
+   -webkit-transition: all 0.8s;
+   -moz-transition: all 0.8s;
+   -ms-transition: all 0.8s;
+   -o-transition: all 0.8s;
+   transition: all 0.8s;
+}
+
+.shrink 
+{
+  height:0px!important;/*change the size here*/
+}
+
+.img-title-mobile{
+  padding-top : 10px!important;
+}
+
 /*****************************************************/
 /* TITLES */
 /*****************************************************/
@@ -474,6 +506,8 @@ a{
 .menu-underline {
   position: relative;
 }
+
+
  /*
 .menu-underline:before {
   content: "";
