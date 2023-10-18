@@ -45,9 +45,11 @@ a{
 
 .separator-bottom{
   width: 100%;
-  margin-bottom: 100px;
 }
 
+.bg-green{
+  background-color: var(--green);
+}
 /*****************************************************/
 /* TITLES */
 /*****************************************************/
@@ -310,7 +312,9 @@ a{
 }
 
 
-
+.container-giftcard{
+  background-color: var(--green);
+}
 
 .sentence-giftcard{
   margin-top: 25px;
@@ -370,8 +374,17 @@ a{
 }
 
 /*****************************************************/
+/* SALON */
+/*****************************************************/
+
+.carousel{
+  border : 6px solid var(--white)
+}
+
+/*****************************************************/
 /* FOOTER */
 /*****************************************************/
+
 
 .container-footer{
   width: 100%; 
@@ -495,15 +508,21 @@ a{
   }
   .anchor{
     display: block;
-    height: 270px; /*same height as header*/
-    margin-top: -270px; /*same height as header*/
+    height: 270px; 
+    margin-top: -270px; 
     visibility: hidden;
+  }
+  .picture-aboutme{
+    width: 80%;
   }
 }
 
 @media (min-width: 991px) {
   .navbar-brand{
     display: none;
+  }
+  .picture-aboutme{
+    width: 60%;
   }
 }
 
