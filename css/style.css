@@ -102,8 +102,8 @@ a{
 .title-section{
   color: var(--green);
   font-size: 4em;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
   font-family: 'Tahu!', sans-serif;
 }
@@ -116,7 +116,7 @@ a{
   margin-bottom: 40px;
 }
 
-.title-section-white{
+.white{
   color: var(--white);
 }
 
@@ -555,6 +555,8 @@ a{
   }
   .title-section {
     font-size: 3em;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 
