@@ -530,6 +530,7 @@ a{
 /*****************************************************/
 
 @media (max-width: 991px) {
+  /* PHONE */
   .navbar-brand{
     display: initial;
   }
@@ -548,9 +549,14 @@ a{
   .picture-aboutme{
     width: 80%;
   }
+  .home-description {
+    font-size: 3.5em;
+    padding-top: 0px;
+  }
 }
 
 @media (min-width: 991px) {
+  /* ORDI */
   .navbar-brand{
     display: none;
   }
