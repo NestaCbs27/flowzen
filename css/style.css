@@ -103,25 +103,14 @@ a{
   color: var(--green);
   font-size: 4em;
   margin-top: 100px;
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
   text-align: center;
   font-family: 'Tahu!', sans-serif;
 }
 
-.title-section-underline{
-  width: 70px;
-  border-bottom: 1px solid var(--green);
-  margin : 0 auto;
-  padding-bottom: 5px;
-  margin-bottom: 40px;
-}
 
 .white{
   color: var(--white);
-}
-
-.title-section-underline-white{
-  border-bottom: 1px solid var(--white);
 }
 
 
@@ -300,13 +289,22 @@ a{
   width: 100%; 
   height: 350px; 
   border : 6px solid var(--white);
-  background-image: url("../img/soins.jpg");
+}
+
+.img-soin-1 {
+  background-image: url("../img/soin-1.jpg");
+  background-size: cover;
+}
+
+.img-soin-2 {
+  background-image: url("../img/soin-2.jpg");
+  background-size: cover;
 }
 
 
 .soin-detail-container {
   position: absolute;
-  top: 320px; 
+  top: 350px; 
   left: 50%; 
   transform: translate(-50%, -50%); 
   width: 80%; 
@@ -547,7 +545,7 @@ a{
     visibility: hidden;
   }
   .picture-aboutme{
-    width: 80%;
+    width: 100%;
   }
   .home-description {
     font-size: 3.5em;
