@@ -102,8 +102,8 @@ a{
 .title-section{
   color: var(--green);
   font-size: 4em;
-  padding-top: 100px;
-  margin-bottom: 15px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   text-align: center;
   font-family: 'Tahu!', sans-serif;
 }
@@ -552,6 +552,9 @@ a{
   .home-description {
     font-size: 3.5em;
     padding-top: 0px;
+  }
+  .title-section {
+    font-size: 3em;
   }
 }
 
