@@ -271,6 +271,13 @@ a{
   margin-top: 40px;
 }
 
+/*****************************************************/
+/* FINDUS */
+/*****************************************************/
+
+.picture-container-findus{
+  text-align: center;
+}
 
 /*****************************************************/
 /* GIFT CARD */
@@ -301,6 +308,26 @@ a{
   background-size: cover;
 }
 
+.img-soin-3 {
+  background-image: url("../img/soin-3.jpg");
+  background-size: cover;
+}
+
+.img-soin-4 {
+  background-image: url("../img/soin-4.jpg");
+  background-size: cover;
+}
+
+.img-soin-5 {
+  background-image: url("../img/soin-5.jpg");
+  background-size: cover;
+}
+
+.img-soin-6 {
+  background-image: url("../img/soin-6.jpg");
+  background-size: cover;
+}
+
 
 .soin-detail-container {
   position: absolute;
@@ -310,6 +337,17 @@ a{
   width: 80%; 
   height: 180px; 
   background-color: var(--white);
+  padding: 25px;
+}
+
+.soin-detail-container-title {
+  position: absolute;
+  top: 180px; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 80%; 
+  height: 180px; 
+  color: var(--white);
   padding: 25px;
 }
 
@@ -327,7 +365,7 @@ a{
 
 .soin-title{
   font-family: 'Tahu!', sans-serif;
-  font-size: 2.4em;
+  font-size: 3.3em;
 }
 
 .soin-time{
