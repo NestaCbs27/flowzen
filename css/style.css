@@ -99,11 +99,10 @@ a{
   font-size: 1.7em;
 }
 
-.title-section{
+.title-section, .title-section-small{
   color: var(--green);
   font-size: 4em;
   margin-top: 100px;
-  /*margin-bottom: 100px;*/
   text-align: center;
   font-family: 'Tahu!', sans-serif;
 }
