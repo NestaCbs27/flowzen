@@ -40,7 +40,6 @@ a{
 
 .separator-top{
   width: 100%;
-  margin-top: 100px;
 }
 
 .separator-bottom{
@@ -189,49 +188,14 @@ a{
 /* PRESTATIONS */
 /*****************************************************/
 
+.galery-img{
+  max-height: 350px;
+}
 
-.container-prestation{
-  color: var(--green);
+.container-galery{
   margin-top: 25px;
-  margin-bottom: 50px;
 }
 
-.container-prestation-detail{
-  padding: 15px;
-  border : 1px solid var(--beige-fonce);
-  min-height: 810px;
-}
-
-.subtitle-prestation{
-  font-size: 2em;
-  font-family: 'Tahu!', sans-serif;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.name-prestation{
-  white-space: nowrap;
-}
-
-.underline-prestation{
-  width: 100%;
-  border-bottom: 1px solid var(--beige-fonce);
-}
-
-.price-prestation{
-  text-align: right;
-  min-width: 50px;
-}
-
-.detail-prestation{
-  color : var(--beige-fonce);
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  font-size: 0.8em;
-  text-align: justify;
-}
 
 /*****************************************************/
 /* ABOUT ME */
@@ -337,7 +301,23 @@ a{
   display: none;
 }
 
+.planity_ui_item-list-element:nth-child(4){
+  display: none;
+}
+
+.planity_ui_item-list-element:nth-child(7){
+  display: none;
+}
+
+.planity_ui_item-list-element:nth-child(8){
+  display: none;
+}
+
 .css-1u1908p{
+  display: none;
+}
+
+.css-of2it5{
   display: none;
 }
 
@@ -351,53 +331,16 @@ a{
   min-width: 100%!important;
 }
 
+.css-1nhtis8 {
+   min-height: 0px!important;
+}
+
 /*****************************************************/
 /* SOIN */
 /*****************************************************/
 
-.soin{
-  width: 100%;
-  padding-top: 50px;
-  text-align: center;
-  color: var(--green);
-}
 
-.soin-container-img {
-  position: relative;
-  width: 100%; 
-  height: 350px; 
-  border : 6px solid var(--white);
-}
 
-.img-soin-1 {
-  background-image: url("../img/soin-1.jpg");
-  background-size: cover;
-}
-
-.img-soin-2 {
-  background-image: url("../img/soin-21.jpg");
-  background-size: cover;
-}
-
-.img-soin-3 {
-  background-image: url("../img/soin-3.jpg");
-  background-size: cover;
-}
-
-.img-soin-4 {
-  background-image: url("../img/soin-4.jpg");
-  background-size: cover;
-}
-
-.img-soin-5 {
-  background-image: url("../img/soin-5.jpg");
-  background-size: cover;
-}
-
-.img-soin-6 {
-  background-image: url("../img/soin-6.jpg");
-  background-size: cover;
-}
 
 
 .soin-detail-container {
@@ -664,6 +607,10 @@ a{
     margin-top: 60px;
     margin-bottom: 60px;
   }
+
+  .galery-pc{
+    display: none;
+  }
 }
 
 @media (min-width: 991px) {
@@ -673,6 +620,10 @@ a{
   }
   .picture-aboutme{
     width: 60%;
+  }
+
+  .galery-phone{
+    display: none;
   }
 }
 
