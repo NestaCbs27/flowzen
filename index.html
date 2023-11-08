@@ -89,7 +89,7 @@
           <div><img src="img/leaf-right.svg"></div>
         </div>
       </div>
-      <div class="row " style="margin-top: 60px!important;"">
+      <div class="row " style="margin-top: 60px!important;">
         <div class="col-lg-6 col-sm-12 col-md-12 container-content-salon">
           <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-indicators">
@@ -119,10 +119,20 @@
           </div>
   
           </div>
-          <div class="col-lg-6 col-sm-12 col-md-12 container-content-salon">
-  lorem ipsmu
-    
+          <div class="col-lg-6 col-sm-12 col-md-12 container-content-salon-description">
+            <div class="d-flex flex-column mb-3">
+              <div class="p-2">C'est dans ce lieu paisible aux inspirations végétales et boisées que vous allez pouvoir prendre soin de vous.</div>
+              <div class="p-2">La salle d'attente avec sa balançoire vous embarque dans le monde de Flowzen, un endroit relaxant.</div>
+              <div class="p-2">L'ambiance chaleureuse, la musique douce et les odeurs revigorante sauront a coup sûr vous détendre et vous reposer.</div>
+              <div class="p-2">Retrouvez en magasin, à la vente, les produit de la marque JEAN MICH et EQUIVALZNAI</div>
+              <div class="p-2">
+                <div class="d-flex flex-row justify-content-center bd-highlight mb-3">
+                  <div class="p-2 bd-highlight">LOGO 1</div>
+                  <div class="p-2 bd-highlight">LOGO 2</div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
     </div>
   <span class="anchor"  id="a-prestations"></span>
@@ -142,9 +152,9 @@
               <div class="soin-title">Small'Zen</div>
             </div>
             <div class="soin-detail-container ">
-              <div class="soin-description">Massage </div>
-              <div class="soin-time">45 min</div>
-              <div class="soin-price">A partir de 24 €</div>
+              <div class="soin-description">Sec ou mouillé : Gestuelle relaxante inculuant un brossage et un massage à l'aide d'accessoires et huiles adaptées </div>
+              <div class="soin-time">30 min</div>
+              <div class="soin-price">A partir de 29 €</div>
             </div>
             <div class="soin-detail-showmore ">
               En savoir plus
@@ -242,10 +252,39 @@
     </div>
   </div>
 </div>
+
+<span class="anchor" id="a-contact"></span>
+<div class="container">
+  <div class="row">
+    <div class="d-flex justify-content-center title-section">
+      <div><img src="img/leaf-left.svg"></div>
+      <div class="px-3">Reservation</div>
+      <div><img src="img/leaf-right.svg"></div>
+    </div>
+  </div>
+  <div class="row container-contact">
+    
+    <div id="container-planity"></div>
+    <script>
+      var container = document.getElementById('container-planity');
+      window.planity = {
+          key: '-N_YLe7QV6Gvw75OKcay',
+          appointmentContainer : container,
+      };
+    </script>
+    <script src="https://d2skjte8udjqxw.cloudfront.net/widget/production/polyfills.latest.js"></script>
+    <script src="https://d2skjte8udjqxw.cloudfront.net/widget/production/app.latest.js"></script>
+
+  </div>
+</div>
+
+
+
+
 <img src="img/separator-top.PNG" class="separator-top">
 <span class="anchor" id="a-giftcard"></span>
 <div class="bg-green">
-  <div class="container container-giftcard">
+  <div class="container">
     <div class="row">
       <div class="d-flex justify-content-center title-section-small white">
         <div><img src="img/leaf-left-white.svg"></div>
@@ -255,7 +294,20 @@
     </div>
     <div class="row">
       <div class="container-giftcard">
-        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        <div class="giftcard-container-description ">
+          <div class="giftcard-img">
+            <img src="img/head.png" width="120px" alt="logo-giftcard">
+          </div>
+          <div class="sentence-giftcard">
+            Contactez-moi dès maintenant et partagez le plaisir d’une expérience de soins en offrant un cadeau d’exception.
+          </div>
+          <div class="sentence-giftcard">
+            Choisissez le montant ou parmi l'ensemble des prestations la formule que vous souhaitez offrir à vos proches.
+          </div>
+          <div class="sentence-giftcard-nb">
+            Tous les bons cadeaux sont nominatifs et valables 6 mois à compter de la date d'achat
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -326,7 +378,9 @@
     </div>
   </div>
   <div class="row container-contact">
-    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    
+ <br><br><br><br><br><br><br>
+
   </div>
 </div>
 
@@ -362,6 +416,7 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 <script defer async src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script defer async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script defer async src="https://web3forms.com/client/script.js" ></script>
 <script defer async src="./js/script.js"></script>
